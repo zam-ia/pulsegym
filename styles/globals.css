@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #ffaa01;
+  --smoke: #242424;
+}
+
+body {
+  @apply bg-white text-smoke text-base;
+}
+
+.kpi-card {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-sm p-4;
+}
